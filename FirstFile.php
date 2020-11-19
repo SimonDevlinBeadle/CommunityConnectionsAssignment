@@ -3,7 +3,7 @@
 http://localhost/Devlin-BeadleSimonAsst1/asst1main.php
 Asst1Main.php
 Author: Simon Devlin-Beadle
-Date: October 11th 2020
+Date: November 19th 2020
 */
 require_once("Asst1Include.php");
 
@@ -39,6 +39,11 @@ function DisplayMainForm()
     echo "</button>";
     DisplayButton("f_ShowData", "", "showData.png", "Show Data");
     echo "</button></form>";
+}
+
+function CommunityConnections()
+{
+    //Some code here.
 }
 
 function CreateTableForm()
