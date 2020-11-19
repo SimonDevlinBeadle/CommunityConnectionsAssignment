@@ -12,6 +12,13 @@ Implementation File for warehouse.h
 //Non-Default Constructor for Warehouse Class, Passed fileName and maxItems.
 //maxItems has a default value of SIZE (25) if no value is passed.
 
+/*This comment is for the CommunityConnectionsAssignment*/
+
+void CommunityConnections()
+{
+	cout << "This is for the community connections assignment." endl;
+}
+
 Warehouse::Warehouse(string fileName, int maxItems)
 {
 	//Validate number of maxItems. Cannot be larger than SIZE (25) or smaller than 0.
