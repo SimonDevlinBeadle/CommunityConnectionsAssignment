@@ -30,19 +30,6 @@ public:
 
 	//Non-Default Constructor, Passed fileName and maxItems. Intializes New Object of Warehouse Class.
 	Warehouse(string /*fileName*/, int = SIZE);
-
-	//showItem Function, Passed itemCode. Display Item's Description and Qoh.
-	void showItem(int /*itemCode*/);
-
-	//writeWarehouseItems Function, Passed Output Stream. Writes Data to Output File.
-	void writeWarehouseItems(ostream& /*fileName*/);
-
-	//getNoItems Function, Const. Returns noItems.
-	int getNoItems() const { return noItems; }
-
-	//addItem Function, Passed itemCode, Description, and Qoh. Adds Item to Array.
-	void addItem(int /*itemCode*/, string /*description*/, int /*qoh*/);
-
 private:
 
 	//items, Array of class ItemRec called items.
