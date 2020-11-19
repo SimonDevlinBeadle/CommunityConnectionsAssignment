@@ -1,1 +1,2 @@
 # CommunityConnectionsAssignment
+CommunityConnectionsAssignment, Simon Devlin-Beadle
